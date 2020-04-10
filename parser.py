@@ -1,7 +1,7 @@
 import re
 import json
 
-#regex to extract a string containing the link extension and title from unusual articles page (i dont know regex fuck you)
+#regex to extract a string containing the link extension and title from unusual articles page (parsing HTML with regex I know)
 regex_1 = re.compile('(?<=<td><b><a href="/wiki/)(.*)(?=</a>)')
 regex_2 = re.compile('(?<=<td width="30%"><b><a href="/wiki/)(.*)(?=</a>)')
 
