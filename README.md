@@ -1,5 +1,5 @@
 # Unusual-Articles-Twitter-Bot
-A Twitter bot which uploads a random article from Twitter's List of Unusual Articles. This repository includes 5 files:
+A Twitter bot which uploads a random article from Twitter's List of Unusual Articles. This is currently the code used by the Twitter bot @UArticleBot. This repository includes 5 files:
 
 **TweetRandom.sh**
 This file is a bash script which first downloads the raw HTML from https://en.wikipedia.org/wiki/Wikipedia:Unusual_articles using wget, and overwrites the existing HTML file if it exists in the same directory. It then runs `parser.py` and `tweeter.py`.
